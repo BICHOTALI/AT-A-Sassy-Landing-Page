@@ -1,3 +1,7 @@
+@use 'config' as config;
+@use 'btnConfig' as btn;
+@use 'utilities' as utility;
+
 
 * {
   box-sizing: border-box;
@@ -6,8 +10,8 @@
 }
 
 body {
-  background-color: $light-color;
-  font-family: $font-stack;
+  background-color: config.$light-color;
+  font-family: config.$font-stack;
   line-height: 1;
 }
 
